@@ -73,7 +73,7 @@ void DDS_Clock_Config_Menu()
     if (ClockSourceIndex==CLOCK_SOURCE_EXT_OSC_INDEX) DDS_Core_Clock=EXT_OSC_Freq/(DividerIndex+1);*/
     
     ClockSourceIndex=CLOCK_SOURCE_EXT_OSC_INDEX;
-    EXT_OSC_Freq = 24000000;
+    EXT_OSC_Freq = 10100000;
     if (UpButtonFunction < 0 && upButton.depressed == true)  
     {
       if (ClockSourceIndex==CLOCK_SOURCE_EXT_OSC_INDEX) 
